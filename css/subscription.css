@@ -286,6 +286,9 @@ nav {
       color: var(--white-text);
       cursor: pointer;
       transition: all 0.3s ease-in-out;
+      font-family: "Rajdhani", sans-serif;
+      font-weight: 600;
+      margin-bottom: 4rem;
 
       &:hover {
         background-color: #ff005c;
