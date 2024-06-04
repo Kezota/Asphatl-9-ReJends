@@ -280,6 +280,27 @@ nav {
   }
 }
 
+.sponsors {
+  margin-top: 2rem;
+  background-color: #1b1b1d;
+  padding-bottom: 4rem;
+
+  h1 {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .sponsor {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      max-width: 200px;
+      max-inline-size: 200px;
+    }
+  }
+}
+
 footer {
   background-color: #0b0b0b;
   color: var(--white-text);
@@ -288,7 +309,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1.5rem 1rem;
-  margin-top: 4rem;
 
   h2 {
     font-size: 36px;
@@ -357,6 +377,19 @@ footer {
     .esport-card {
       height: auto;
       padding: 1rem 1rem;
+    }
+  }
+
+  .sponsors {
+    .sponsor {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      img {
+        width: 150px;
+      }
     }
   }
 
