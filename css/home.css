@@ -61,6 +61,7 @@ nav {
         text-decoration: none;
         font-size: 20px;
         font-weight: 600;
+        transition: all 0.2s ease;
 
         &:hover {
           color: var(--brand-color);
@@ -73,9 +74,16 @@ nav {
         border-radius: 2px;
         text-align: center;
 
+        a {
+          color: var(--white-text);
+
+          &:hover {
+            color: var(--white-text);
+          }
+        }
+
         &:hover {
           background-color: #ff005c;
-          color: var(--white-text);
           cursor: pointer;
         }
       }
